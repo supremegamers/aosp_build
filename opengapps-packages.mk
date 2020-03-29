@@ -109,7 +109,6 @@ GAPPS_PRODUCT_PACKAGES += \
 ifneq ($(filter 28,$(call get-allowed-api-levels)),)
 GAPPS_PRODUCT_PACKAGES += \
     DigitalWellbeing \
-    MarkupGoogle \
     GoogleSoundPicker
 endif
 
@@ -163,7 +162,6 @@ GAPPS_FORCE_MMS_OVERRIDES := true
 GAPPS_FORCE_WEBVIEW_OVERRIDES := true
 GAPPS_PRODUCT_PACKAGES += \
     AndroidAuto \
-    GoogleCamera \
     GoogleContacts \
     LatinImeGoogle \
     StorageManagerGoogle \
